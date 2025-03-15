@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Image1 from "../../assets/carrousel/img-1.png";
 import Image2 from "../../assets/carrousel/img-2.png";
 import Image3 from "../../assets/carrousel/img-3.png";
+import Button from "../Shared/Button";
 
 const imagesData = [
   {
@@ -63,7 +64,10 @@ const Carrousel = () => {
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">{image.title}</h1>
                     <h1 className="text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md:text-[100] xl:text-[150px] font-bold">{image.title2}</h1>
                     <div>
-                      <button>Shop Now</button>
+                      <Button
+                        text="Shop Now"
+                        bgColor="bg-btn-gradient"
+                        textColor="text-black"/>
                     </div>
                   </div>
                   {/* Img Section  */}
@@ -72,7 +76,7 @@ const Carrousel = () => {
                       <img
                         src={image.img}
                         alt=""
-                        className="w-[300px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+                        className="w-[300px] sm:w[450] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative z-40"
                       />
                     </div>
                   </div>
