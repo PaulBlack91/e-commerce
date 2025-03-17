@@ -35,22 +35,27 @@ const Banner = () => {
             <img
               src={BannerData.image}
               alt=""
-              className="mx-auto object-cover rounded-3xl drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="scale-95  mx-auto object-cover rounded-3xl drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* {third column} */}
-          <div>
-            <p>{BannerData.title2}</p>
-            <p>{BannerData.title3}</p>
-            <p>{BannerData.title4}</p>
-          </div>
+          <div className="flex flex-col justify-center gap-4 p-6 sm:p-8">
+            <p className="font-bold text-xl">{BannerData.title2}</p>
+            <p className="text-3xl sm:text-5xl font-bold">
+              {BannerData.title3}
+            </p>
+            <p className="text-sm tracking-wide leading-5">
+              {BannerData.title4}
+            </p>
 
-          <div>
-            <Button
-              text="Shop Now"
-              bgColor="bg-btn-gradient"
-              textColor="text-black"
-            />
+            <div>
+              <Button
+                className="py-2 px-4 rounded"
+                text="Shop Now"
+                bgColor="bg-btn-gradient"
+                textColor="text-black"
+              />
+            </div>
           </div>
         </div>
       </div>
