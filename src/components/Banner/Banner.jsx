@@ -50,7 +50,7 @@ const Banner = () => {
 
             <div>
               <Button
-                className="py-2 px-4 rounded"
+                className="py-2 px-4 rounded-full"
                 text="Shop Now"
                 bgColor="bg-btn-gradient"
                 textColor="text-black"

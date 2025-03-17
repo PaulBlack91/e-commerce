@@ -51,7 +51,7 @@ const Carrousel = () => {
 
   return (
     <div className="container">
-      <div className="overflow-hidden rounded-3xl min-h-[550px] sm:min-h-[650px] carrousel-bg-color flex justify-center items-center">
+      <div className="overflow-hidden rounded-3xl min-h-[550px] sm:min-h-[650px] carrousel-bg-color flex justify-center items-center mb-10">
         <div className="container pb-8 sm:pb-0">
           {/* Carrousel Section  */}
           <Slider {...settings}>
