@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <FaMobileAlt className="text-xl text-gray-600dark:text-gray-400"/>
+              <FaMobileAlt className=""/>
             </div>
           </div>
         </div>
