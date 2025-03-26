@@ -7,14 +7,14 @@ import { FaCaretDown } from "react-icons/fa";
 const MenuLinks = [
   { id: 1, title: "Home", link: "/#" },
   { id: 2, title: "Shop", link: "/#shop" },
-  { id: 3, title: "About", link: "/#abou" },
+  { id: 3, title: "About", link: "/#about" },
   { id: 4, title: "Blogs", link: "/#blog" },
 ];
 
 const DropdownLinks = [
   { id: 1, title: "Home1", link: "/#" },
   { id: 2, title: "Shop1", link: "/#shop" },
-  { id: 3, title: "About1", link: "/#abou" },
+  { id: 3, title: "About1", link: "/#about" },
   { id: 4, title: "Blogs1", link: "/#blog" },
 ];
 
