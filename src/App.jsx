@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-btn-gradient duration-200 overflow-hidden'>
       <Navbar />
       <Banner />
       <Carrousel />

@@ -3,7 +3,7 @@ import Button from "../Shared/Button";
 
 const ProductsCard = ({ data }) => {
   return (
-    <div className="mb-10">
+    <div className="mb-10 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">
         {/* card section */}
 
@@ -13,7 +13,7 @@ const ProductsCard = ({ data }) => {
               <img
                 src={data.image}
                 alt=""
-                className=" bg-secondary [h-180px] w-[260px] object-cover rounded-md"
+                className=" bg-secondary dark:bg-slate-900 [h-180px] w-[260px] object-cover rounded-md"
               />
 
               {/* hover button  */}
