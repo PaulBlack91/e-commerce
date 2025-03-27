@@ -1,51 +1,41 @@
 import React from "react";
-import bannerIMG from "../../assets/Banner/bannerEP.png";
+
 import Button from "../Shared/Button";
 
-const Banner = () => {
-  const BannerData = {
-    dicount: "30% OFF",
-    title: "¡Descubrí el mundo de la cosmética natural con #ÉxitoEnUnPote!",
-    date: "2022-12-31",
-    image: bannerIMG,
-    title2: "Un curso 100% online para que aprendas desde cero a crear productos naturales, tanto para cuidarte como para emprender. No importa si sos principiante o si ya experimentaste con recetas, acá vas a encontrar una guía completa para dominar la cosmética natural con confianza.",
-    title3: "Sale",
-    title4: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    button: "Shop Now",
-    bgColor: "bg-btn-gradient",
-  };
+const Banner = ({data}) => {
+  
 
   return (
     <div
-      {...BannerData}
+  
       className="min-h-[550px]  flex justify-center items-center py-12 mt-10 "
     >
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl bgColor: bg-btn-gradient ">
           {/* {first column} */}
           <div className="p-6 sm:p-8">
-            {/* <p className="text-sm">{BannerData.dicount}</p> */}
+            {/* <p className="text-sm">{data.dicount}</p> */}
             <h1 className="uppercase text-4xl lg:text-5xl font-bold">
-              {BannerData.title}
+              {data.title}
             </h1>
-            {/* <p className="text-sm">{BannerData.date}</p> */}
+            {/* <p className="text-sm">{data.date}</p> */}
           </div>
           {/* {second column} */}
           <div className=" h-full flex items-center">
             <img
-              src={BannerData.image}
+              src={data.image}
               alt=""
               className="scale-95  mx-auto object-cover rounded-3xl drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* {third column} */}
           <div className="flex flex-col justify-center gap-4 p-6 sm:p-8">
-            <p className="font-bold text-3xl">{BannerData.title2}</p>
+            <p className="font-bold text-3xl">{data.title2}</p>
             {/* <p className="text-3xl sm:text-5xl font-bold">
-              {BannerData.title3}
+              {data.title3}
             </p> */}
             {/* <p className="text-sm tracking-wide leading-5">
-              {BannerData.title4}
+              {data.title4}
             </p> */}
 
             <div>
