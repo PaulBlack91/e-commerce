@@ -12,12 +12,12 @@ export const BannerData1 = {
   };
   
   export const BannerData2 = {
-    discount: "50% OFF",
-    title: "Aprende a formular tus propios cosméticos naturales",
-    date: "2023-06-15",
+    // discount: "50% OFF",
+    title: "Video VSl",
+    // date: "2023-06-15",
     image: bannerIMG,
     title2:
-      "Accede a contenido exclusivo y desarrolla habilidades para emprender en el mundo de la cosmética natural.",
-    button: "Inscribirme",
-    bgColor: "bg-green-500",
+      "lo que vas a lograr",
+    // button: "Inscribirme",
+    bgColor: "bg-white",
   };
