@@ -1,24 +1,23 @@
 import React from "react";
-
 import Button from "../Shared/Button";
+import { FaCartShopping } from "react-icons/fa6";
 
-const Banner = ({data}) => {
-  
-
+const Banner = ({ data }) => {
   return (
-    <div
-  
-      className="min-h-[550px]  flex justify-center items-center py-12 mt-10 "
-    >
+    <div className="min-h-[550px]  flex justify-center items-center py-12 mt-10 ">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-white rounded-3xl bgColor: bg-btn-gradient ">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center text-black rounded-3xl bg-rosabanner bg-opacity-30 backdrop-blur-sm shadow-lg ">
           {/* {first column} */}
           <div className="p-6 sm:p-8">
-            {/* <p className="text-sm">{data.dicount}</p> */}
-            <h1 className="uppercase text-4xl lg:text-5xl font-bold">
+            <h1 className="text-4xl lg:text-5xl font-georgia italic text-gray-800 ">
               {data.title}
             </h1>
-            {/* <p className="text-sm">{data.date}</p> */}
+          </div>
+
+          <div className="text-center justify-center  p-3 ">
+            <p className="font-sans italic text-xl text-gray-900">
+              {data.title2}
+            </p>
           </div>
           {/* {second column} */}
           <div className=" h-full flex items-center">
@@ -29,22 +28,18 @@ const Banner = ({data}) => {
             />
           </div>
           {/* {third column} */}
-          <div className="flex flex-col justify-center gap-4 p-6 sm:p-8">
-            <p className="font-bold text-3xl">{data.title2}</p>
-            {/* <p className="text-3xl sm:text-5xl font-bold">
-              {data.title3}
-            </p> */}
-            {/* <p className="text-sm tracking-wide leading-5">
-              {data.title4}
-            </p> */}
-
-            <div>
+          <div className="flex flex-col justify-center items-center gap-4 p-6 sm:p-8">
+            <div className=" gap-x-2 text-2xl font-bold">
               <Button
-                className="py-2 px-4 rounded-full"
-                text="Ordenar ahora"
-                bgColor="bg-brandwhite"
-                textColor="text-black"
-              />
+                className="py-2 px-4 rounded-full flex items-center gap-2"
+                bgColor="bg-btn-shopnow"
+                textColor="text-white"
+              >
+                <FaCartShopping className="mr-2" />
+                {" "}
+                
+                 ORDENAR AHORA
+              </Button>
             </div>
           </div>
         </div>

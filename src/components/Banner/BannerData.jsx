@@ -6,9 +6,9 @@ export const BannerData1 = {
     date: "2022-12-31",
     image: bannerIMG,
     title2:
-      "Un curso 100% online para que aprendas desde cero a crear productos naturales...",
+      "Un curso 100% online para que aprendas desde cero a crear productos naturales, tanto para cuidarte como para emprender. No importa si sos principiante o si ya experimentaste con recetas, acá vas a encontrar una guía completa para dominar la cosmética natural con confianza.",
     button: "Shop Now",
-    bgColor: "bg-btn-gradient",
+    bgColor: "btn-shopnow",
   };
   
   export const BannerData2 = {

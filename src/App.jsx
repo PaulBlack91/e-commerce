@@ -11,12 +11,12 @@ import {CarrouselData} from "./components/Carrousel/CarrouselData";
 
 const App = () => {
   return (
-    <div className="bg-btn-gradient duration-200 overflow-hidden">
+    <div className="min-h-screen bg-bgimg bg-cover bg-center bg-no-repeat">
       <Navbar />
       <Banner data={BannerData1} />
       {/* <Banner data={BannerData2} /> */}
       <Carrousel data={CarrouselData} />
-      <Products />
+      {/* <Products /> */}
       <Blogs data={BlogData} />
       <Footer />
     </div>
