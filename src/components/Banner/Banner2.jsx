@@ -6,7 +6,7 @@ const Banner2 = ({ data }) => {
   return (
     <div className=" flex justify-center items-center  ">
       <div className="container ">
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center text-black rounded-3xl bg-white bg-opacity-30 backdrop-blur-sm shadow-lg">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center text-black rounded-3xl bg-yellow bg-opacity-60 backdrop-blur-sm shadow-lg">
           {/* {first column} */}
           <div className="p-2 sm:p-8">
             <h1 className="text-[2.4rem] lg:text-5xl font-georgia italic text-gray-800 text-center tracking-tight leading-tight">

@@ -4,11 +4,12 @@ const Panel = ({ title, answer }) => {
   const [AccordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2">
+    <div className=" border-gray-300 w-full">
+
       <button
         onClick={() => setAccordionOpen(!AccordionOpen)}
-        className="flex justify-between w-full"
-      >
+        className="flex justify-normal items-center w-full p-4 text-lg font-semibold text-gray-800 bg-gray-100 hover:bg-gray-200 transition-all"
+        >
         {AccordionOpen ? <span>-</span> : <span>+</span>}
         <span>{title}</span>
       </button>
@@ -21,7 +22,7 @@ const Panel = ({ title, answer }) => {
           : "grid-rows-[0fr] opacity-0"
       }`}
       >
-        <div className="overflow-hidden">{answer}</div>
+         <div className="overflow-hidden p-4 text-gray-700 bg-white border-t border-gray-200">{answer}</div>
       </div>
     </div>
   );

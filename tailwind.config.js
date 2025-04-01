@@ -11,7 +11,7 @@ export default {
         'primary': '#aa99cd',
         'secondary': '#a6d1e4',
         'danger': '#a99cda',
-        'brandwhite': '#f5f5f5',
+        'yellow': '#fefedf',
         'rosabanner': '#ffcce1',
         'btn-shopnow': '#0ce9e3',
       },
