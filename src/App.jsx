@@ -10,6 +10,7 @@ import { BannerData1, BannerData2 } from "./components/Banner/BannerData";
 import { BlogData } from "./components/Blogs/BlogData";
 import {CarrouselData} from "./components/Carrousel/CarrouselData";
 import PanelDb from "./components/Panel/PanelDb";
+import WhatsAppButton from "./components/Whatsapp/WhatsappButton";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       {/* <Products /> */}
       <PanelDb/>
       <Blogs data={BlogData} />
+      <WhatsAppButton/>
       <Footer />
     </div>
   );
